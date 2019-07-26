@@ -34,4 +34,4 @@ An instance of the board game, Othello, in which an artificial intelligence can 
 
 ## Tests
 
-All test cases can be found in the provided [link](/tree/master/Testing)
+All test cases can be found in the provided [link](/Testing)
