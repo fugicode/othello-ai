@@ -8,7 +8,7 @@ import jaima.game.*;
  * Here is the initial state of the board, with empty spaces arbitrarily represented as 0, white tokens as 1, black tokens as 2. 
  * Internally, the columns and rows, and hence, the moves are done in terms of array indices. What's more, the contents of the board
  * are in terms of 0's 1's and 2's. However, the output of the board (via prettyPrint()) will convert the column and row labels to
- * letters, and the 0's to Blanks (¥). 
+ * letters, and the 0's to Blanks (Â¥). 
  * 
  * This algorithm is suitable for board sizes 16 (4x4), 36 (6x6), and the traditional 64 (8x8).
  * 
@@ -36,8 +36,8 @@ import jaima.game.*;
  *                                
  * 
  * 
- * @author (Phil Knock and James Baker-Coe) 
- * @version (10.23.14)
+ * @author (your name) 
+ * @version (a version number or date)
  */
 public class Board
 extends State
@@ -48,7 +48,7 @@ extends State
     protected int size;
     protected int turn = 1;
     protected static String [] boardLabels = { "A", "B", "C", "D", "E", "F", "G", "H" } ;
-    private static final String blank = "¥"; // option 8 on Mac
+    private static final String blank = "Â¥"; // option 8 on Mac
 
     /**
      * @param s This is the string representation of the board.
